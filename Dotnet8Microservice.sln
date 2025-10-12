@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE71BD0A-FDC8-4E7E-8195-B75A04783D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{06FBE5A5-C62C-4130-96F8-53BC0618B43A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06FBE5A5-C62C-4130-96F8-53BC0618B43A} = {DE71BD0A-FDC8-4E7E-8195-B75A04783D17}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06FBE5A5-C62C-4130-96F8-53BC0618B43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FBE5A5-C62C-4130-96F8-53BC0618B43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FBE5A5-C62C-4130-96F8-53BC0618B43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FBE5A5-C62C-4130-96F8-53BC0618B43A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
