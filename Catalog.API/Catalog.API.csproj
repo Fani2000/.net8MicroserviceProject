@@ -19,4 +19,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SDK.Common\SDK.Common.csproj" />
+      <ProjectReference Include="..\SDK.Messaging\SDK.Messaging.csproj" />
+    </ItemGroup>
+
 </Project>
